@@ -1,0 +1,63 @@
+html, #content, #images {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/back.png");
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+/*Text Style*/
+#word {
+	text-align: center;
+	position: fixed;
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 51px black;
+	top: 46%;
+	width: 100%;
+	font-family: 'Bangers', cursive;
+	font-size: 62px;
+}
+
+#title {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	color: rgba(255, 255, 255, 0.47);
+	font-family: 'Kaushan Script', cursive;
+	font-size: 34px;
+}
+
+#title:hover {
+	color: white;
+	text-shadow: 0px 0px 10px;
+}
+
+/*PICS Style*/
+
+.grid {
+	height: 50%;
+}
+
+[class*='col-'] {
+	float: left;
+	height: 100%;
+}
+
+.col-1-3 {
+	width: 33.33%;
+}
+
+.pic {
+	height: 100%;
+}
+
+.pic > img {
+	box-shadow: 0px 0px 99px rgb(134, 134, 134);
+	width: 100%;
+	height: 100%;
+}
