@@ -1,6 +1,7 @@
 # Pyxis
 
 Shrishti 2014 project on smart whiteboard.
+
 Uses SVM + HoG for handwriting detection and does stuff.
 
 ### Caveats
